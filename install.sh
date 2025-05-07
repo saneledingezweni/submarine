@@ -13,5 +13,5 @@ while true; do
     echo "✅ Screen session '$SESSION_NAME' is active (PID: $PID)."
   fi
 
-  sleep 5
+  sleep 60
 done
