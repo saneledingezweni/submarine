@@ -6,4 +6,11 @@
     pkgs.screen
   ];
 
+  idx = {
+    extensions = [ "ms-python.python" ];
+    workspace = {};
+	  previews = {
+	    enable = false;
+	  };
+};
 }
