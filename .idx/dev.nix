@@ -4,6 +4,7 @@
   packages = [
     pkgs.python312Full
     pkgs.screen
+    pkgs.htop
   ];
 
   idx = {
