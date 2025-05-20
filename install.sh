@@ -17,7 +17,7 @@ while true; do
     fi
 
     # Khởi động lại screen session
-    screen -dmS "$SESSION_NAME" bash start.sh
+    screen -dmS "$SESSION_NAME" bash batdau.sh
   else
     echo "✅ Screen session '$SESSION_NAME' is active (PID: $PID)."
   fi
