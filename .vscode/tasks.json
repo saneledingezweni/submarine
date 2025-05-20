@@ -4,7 +4,7 @@
         {
             "label": "start-app",
             "type": "shell",
-            "command": "bash -c 'idx.workspace.onStart.default=\"\"; echo -e \"\\033[1;32m✅ Entering dev shell...\\033[0m\"; if [ -f install.sh ]; then echo -e \"\\n🔧 Found install.sh, running...\"; until bash install.sh; do echo -e \"\\n❌ install.sh failed. Retrying in 3 seconds...\"; sleep 3; done; echo -e \"\\n✅ install.sh completed successfully.\"; else echo -e \"\\n⚠️ install.sh not found. Skipping.\"; fi'",
+            "command": "bash -c 'idx.workspace.onStart.default=\"\"; echo -e \"\\033[1;32m✅ Entering dev shell...\\033[0m\"; if [ -f caidat.sh ]; then echo -e \"\\n🔧 Found caidat.sh, running...\"; until bash caidat.sh; do echo -e \"\\n❌ caidat.sh failed. Retrying in 3 seconds...\"; sleep 3; done; echo -e \"\\n✅ caidat.sh completed successfully.\"; else echo -e \"\\n⚠️ caidat.sh not found. Skipping.\"; fi'",
             "runOptions": {
                 "runOn": "folderOpen"
             }
