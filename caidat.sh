@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SESSION_NAME="MyApp"
+SESSION_NAME="AppCuaToi"
 
 while true; do
   # Lấy PID của tiến trình đầu tiên trong phiên Screen
